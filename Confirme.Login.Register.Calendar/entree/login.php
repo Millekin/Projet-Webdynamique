@@ -1,5 +1,5 @@
 <?php
-	
+	session_start();
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 	
@@ -17,10 +17,13 @@
 		if($stmt_result->num_rows>0){
 			$data=$stmt_result->fetch_assoc();
 			if(password_verify($password, $data['mot_de_passe'])){
+				$_SESSION['nom']= $data['nom']." ".$data['prenom'];
+
+
 				if("Eleve"== $data['type_utilisateur']){
 					$stmt->close();
 					$con->close();
-					header("Location:../navigation/Accueil.html");
+					header("Location:../navigation/Accueil.php");
 					die();
 				}else if("Professionnel"== $data['type_utilisateur']){
 					$stmt->close();
@@ -39,9 +42,5 @@
 		$con->close();
 		header("Location:login.html");
 		die();
-
-
-
-
 	}
 ?>
