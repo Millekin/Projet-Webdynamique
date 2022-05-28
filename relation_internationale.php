@@ -45,18 +45,18 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- CHARGEMENT LOGO -->
-                        <a href="index.html" class="logo">
+                        <a href="Accueil.php" class="logo">
                             OMNES SCOLAIRE
                         </a>
                         <!-- FIN LOGO -->
 
                         <!-- MENU -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="Accueil.html">Accueil</a></li>
-                            <li class="scroll-to-section"><a href="tout_parcourir.html" class="active">TOUT PARCOURIR</a></li>
-                            <li class="scroll-to-section"><a href="rendez-vous.html">RENDEZ-VOUS</a></li>
+                            <li class="scroll-to-section"><a href="Accueil.php">Accueil</a></li>
+                            <li class="scroll-to-section"><a href="tout_parcourir.php" class="active">TOUT PARCOURIR</a></li>
+                            <li class="scroll-to-section"><a href="rendez-vous.php">RENDEZ-VOUS</a></li>
                             <li class="submenu">
-                                <a href="votre_compte.html">Votre Compte</a>
+                                <a href="votre_compte.php">Votre Compte</a>
                                 <ul>
                                     <li><a href="">Connexion</a></li>
                                     <li><a href="">Fonctionnalités</a></li>
@@ -64,7 +64,7 @@
                                     <li><a href="">Deconnexion</a></li>
                                 </ul>
                             </li>
-                            <li class="scroll-to-section"><a href="contactez-nous.html">Contactez-nous</a></li> 
+                            <li class="scroll-to-section"><a href="contactez-nous.php">Contactez-nous</a></li> 
                             <div class="search-icon">
                                 <a href="#search"><i class="fa fa-search"></i></a>
                             </div>
