@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +50,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- CHARGEMENT LOGO -->
-                        <a href="index.html" class="logo">
+                        <a href="Accueil.html" class="logo">
                             OMNES SCOLAIRE
                         </a>
                         <!-- FIN LOGO -->
@@ -56,12 +61,11 @@
                             <li class="scroll-to-section"><a href="tout_parcourir.html">TOUT PARCOURIR</a></li>
                             <li class="scroll-to-section"><a href="rendez-vous.html">RENDEZ-VOUS</a></li>
                             <li class="submenu">
-                                <a href="votre_compte.html">Votre Compte</a>
+                                <a href="votre_compte.html"><?php echo $_SESSION['nom']?></a>
                                 <ul>
-                                    <li><a href="">Connexion</a></li>
                                     <li><a href="">Fonctionnalités</a></li>
                                     <li><a href="">Paramètres</a></li>
-                                    <li><a href="">Deconnexion</a></li>
+                                    <li><a href="../entree/login.html">Deconnexion</a></li>
                                 </ul>
                             </li>
                             <li class="scroll-to-section"><a href="contactez-nous.html">Contactez-nous</a></li> 
