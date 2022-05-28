@@ -45,16 +45,16 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- CHARGEMENT LOGO -->
-                        <a href="Accueil.html" class="logo">
+                        <a href="Accueil.php" class="logo">
                             ENSEIGNMENT
                         </a>
                         <!-- FIN LOGO -->
 
                         <!-- MENU -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="Accueil.html">Accueil</a></li>
-                            <li class="scroll-to-section"><a href="tout_parcourir.html">TOUT PARCOURIR</a></li>
-                            <li class="scroll-to-section"><a href="rendez-vous.html">RENDEZ-VOUS</a></li>
+                            <li class="scroll-to-section"><a href="Accueil.php">Accueil</a></li>
+                            <li class="scroll-to-section"><a href="tout_parcourir.php">TOUT PARCOURIR</a></li>
+                            <li class="scroll-to-section"><a href="rendez-vous.php">RENDEZ-VOUS</a></li>
                             <li class="submenu">
                                 <a href="votre_compte.html">Votre Compte</a>
                                 <ul>
@@ -64,7 +64,7 @@
                                     <li><a href="">Deconnexion</a></li>
                                 </ul>
                             </li>
-                            <li class="scroll-to-section"><a href="contactez-nous.html">Contactez-nous</a></li> 
+                            <li class="scroll-to-section"><a href="contactez-nous.php">Contactez-nous</a></li> 
                             <div class="search-icon">
                                 <a href="#search"><i class="fa fa-search"></i></a>
                             </div>
