@@ -45,18 +45,18 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- CHARGEMENT LOGO -->
-                        <a href="index.html" class="logo">
+                        <a href="Accueil.php" class="logo">
                             RENDEZ-VOUS
                         </a>
                         <!-- FIN LOGO -->
 
                         <!-- MENU -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="Accueil.html">Accueil</a></li>
-                            <li class="scroll-to-section"><a href="tout_parcourir.html">TOUT PARCOURIR</a></li>
-                            <li class="scroll-to-section"><a href="rendez-vous.html" class="active">RENDEZ-VOUS</a></li>
+                            <li class="scroll-to-section"><a href="Accueil.php">Accueil</a></li>
+                            <li class="scroll-to-section"><a href="tout_parcourir.php">TOUT PARCOURIR</a></li>
+                            <li class="scroll-to-section"><a href="rendez-vous.php" class="active">RENDEZ-VOUS</a></li>
                             <li class="submenu">
-                                <a href="votre_compte.html">Votre Compte</a>
+                                <a href="votre_compte.php">Votre Compte</a>
                                 <ul>
                                     <li><a href="">Connexion</a></li>
                                     <li><a href="">Fonctionnalités</a></li>
