@@ -1,0 +1,93 @@
+body { background-color: #E9FBFF ;
+color: #003366;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+color:#1473d1;
+}
+h3{
+color:#006600;
+}
+h4 {
+    color: red;
+}
+dd { font-style:italic;
+font-size:.90em;
+line-height:200%;
+}
+.logo { background-color:##E9FBFF ;
+color:white;
+}
+.contact { font-family: "Times New Roman", serif;
+font-size: .90em;
+font-weight:bold;
+}
+.entete {
+    background-color: #aaaaaa;
+    color: black;
+}
+
+.info {
+    background-color: #ffffff;
+    color: black;
+}
+
+.success {
+    background-color: #bbbbbb;
+    color: black;
+}
+
+.action {
+    background-color: #cb4335;
+    color: white;
+}
+
+
+#wrapper { width: auto;
+min-width: 680px;
+margin: 0 auto;
+background-color: #ffffff;
+color: #003300;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+#header {
+background-color: #aaaaaa;
+color: white;
+text-align: center;
+padding:1px;
+}
+#nav {
+background-color: #cccccc;
+color: white;
+text-align: center;
+font-weight:bold;
+font-size: 1.2em;
+}
+#colnav {
+line-height: 80px;
+background-color: #cccccc;
+height: 1000px;
+width: 17%;
+float:left;
+padding: 5px;
+}
+li{
+list-style: none;
+margin: 15px 0;
+}
+#section {
+background-color: #E9FBFF;
+width: auto;
+padding: 5px;
+height: 1000px;
+}
+#footer {
+background-color: black;
+color: white;
+clear: left;
+text-align: center;
+padding: 10px;
+}
