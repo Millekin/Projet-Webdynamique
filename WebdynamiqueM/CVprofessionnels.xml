@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf_8"?>
+<professionnels>
+<professionnel id="ca121">
+<photo scr="sebti mouelhi.jpg"/>
+<prenom>Sebti</prenom>
+<nom>Mouelhi</nom>
+<statut>Professeur associé (associate professor)</statut>
+<axe de recherche INSEEC U>Smart interactions</axe de recherche INSEEC U>
+<specialite>Systèmes intelligents communicants</specialite>
+<publications>
+	<publication>
+	</publication>
+</publication>
+<contact>sebti.mouelhi@ece.fr</contact>
+</professionnel>
+
+<professionnel id="fr101">
+<photo scr="waleed mouhali.jpg"/>
+<prenom>Waleed</prenom>
+<nom>Mouhali</nom>
+<statut>Adjoint à la Direction des études Cycle Licence</statut>
+<axe de recherche INSEEC U></axe de recherche INSEEC U>
+<specialite>Mathématiques pour l'ingénierie scientifique et financière</specialite>
+<publications>
+	<publication>Doctorat Dynamique des fluides et transferts thermiques
+	</publication>
+</publication>
+<contact>waleed.mouhali@ece.fr</contact>
+</professionnel>
+
+<professionnel id="de243">
+<photo scr="serena gallanti.jpg"/>
+<prenom>Serena</prenom>
+<nom>Gallanti</nom>
+<statut>Professeur associé (associate professor)</statut>
+<axe de recherche INSEEC U>Smart interactions</axe de recherche INSEEC U>
+<specialite>Nanoscience et nanotechnologies de l'ingénieur</specialite>
+<publications>
+	<publication>
+	</publication>
+</publication>
+<contact>serena.gallanti@ece.fr</contact>
+</professionnel>
+
+<professionnel id="it301">
+<photo scr="manolo hina.jpg"/>
+<prenom>Manolo</prenom>
+<nom>Hina</nom>
+<specialite>Informatique</specialite>
+</professionnel>
+
+<professionnel id="bg651">
+<photo scr="maxime schneider.jpg"/>
+<prenom>Maxime</prenom>
+<nom>Schneider</nom>
+<specialite>Electronique</specialite>
+</professionnel>
+
+<professionnel id="it402">
+<photo scr="fabienne coudray.jpg"/>
+<prenom>Fabienne</prenom>
+<nom>Coudray</nom>
+<specialite>Mathématiques</specialite>
+</professionnel>
+
+</professionnels>

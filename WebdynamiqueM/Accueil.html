@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OMNESscolaire</title>
+    <meta charset="utf_8">
+    <link href="css/omnesscolaire.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var $carrousel = $('#carrousel'); // on cible le bloc du carrousel
+            $img = $('#carrousel img'); // on cible les images contenues dans le carrousel
+            indexImg = $img.length - 1; // on définit l'index du dernier élément
+            i = 0; // on initialise un compteur
+            $currentImg = $img.eq(i); // enfin, on cible l'image courante, qui possède l'index i (0 pour l'instant)
+            $img.css('display', 'none'); // on cache les images
+            $currentImg.css('display', 'block'); // on affiche seulement l'image courante
+            //si on clique sur le bouton "Suivant"
+            $('.next').click(function () { // image suivante
+                i++; // on incrémente le compteur
+                if (i <= indexImg) {
+                    $img.css('display', 'none'); // on cache les images
+                    $currentImg = $img.eq(i); // on définit la nouvelle image
+                    $currentImg.css('display', 'block'); // puis on l'affiche
+                } else {
+                    i = indexImg;
+                }
+            });
+            //si on clique sur le bouton "Précédent"
+            $('.prev').click(function () { // image précédente
+                i--; // on décrémente le compteur, puis on réalise la même chose que pour la fonction "suivante"
+                if (i >= 0) {
+                    $img.css('display', 'none');
+                    $currentImg = $img.eq(i);
+                    $currentImg.css('display', 'block');
+                } else {
+                    i = 0;
+                }
+            });
+            function slideImg() {
+                setTimeout(function () { // on utilise une fonction anonyme
+                    if (i < indexImg) { // si le compteur est inférieur au dernier index
+                        i++; // on l'incrémente
+                    } else { // sinon, on le remet à 0 (première image)
+                        i = 0;
+                    }
+                    $img.css('display', 'none');
+                    $currentImg = $img.eq(i);
+                    $currentImg.css('display', 'block');
+                    slideImg(); // on oublie pas de relancer la fonction à la fin
+                }, 4000); // on définit l'intervalle à 4000 millisecondes (4s)
+            }
+            slideImg(); // enfin, on lance la fonction une première fois
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1 class="logo"> <a href="https://www.omneseducation.com/" target="_BLANK"><img src="img/logo.jpg" alt="logo" width="600" height="100"></a></h1>
+        </div>
+        <div id="nav">
+            <a href="Accueil.html"><img src="img/accueilL.jpg" alt="accueil" width="150" height="50"></a>
+            <a href="Tout parcourir.html"><img src="img/TPDk.jpg" alt="tout parcourir" width="150" height="50"></a>
+            <a href="recherche.html"><img src="img/rechercheDk.jpg" alt="recherche" width="150" height="50"></a>
+            <a href="rendezvous.php"><img src="img/RVDk.jpg" alt="Rendez-vous" width="150" height="50"></a>
+            <a href="moncompte.php"><img src="img/moncompteDk.jpg" alt="mon compte" width="150" height="50"></a>
+            <a href="entree/login.html"><img src="img/deconnexio.jpg" alt="deconnexion" width="150" height="50"></a>
+        </div>
+        <div id="section1">
+            <h2>
+                Le site Omnes scolaire vous permet de prendre RV avec vos enseignants ou de préparer un départ à l'international
+            </h2>
+            <a href="https://www.omneseducation.com/" target="_BLANK">
+                Retrouvez-nous sur notre site
+            </a>
+
+        </div>
+        <h1>Le carrousel des professeurs</h1>
+        <div id="carrousel">
+
+            <ul>
+                <li><img src="img/assia soukane.jpg" width="300" height="200" /></li>
+                <li><img src="img/sebti mouelhi.jpg" width="300" height="200" /></li>
+                <li><img src="img/serena gallanti.jpg" width="300" height="200" /></li>
+                <li><img src="img/waleed mouhali.jpg" width="300" height="200" /></li>
+                <li><img src="img/fabienne coudray.jpg" width="300" height="200" /></li>
+                <li><img src="img/maxime schneider.jpg" width="300" height="200" /></li>
+                <li><img src="img/patricia faroli.jpg" width="300" height="200" /></li>
+                <li><img src="img/manolo hina.jpg" width="300" height="200" /></li>
+            </ul>
+        </div>
+        <div id="section2">
+            <h1>L'événement de la semaine</h1>
+            <p>
+                Ne manquez pas notre journée portes ouvertes spéciale </br>
+                <h3>"Formation par la recherche" samedi 4 juin 2022 !</h3>
+                <img src="img/axesrecherches.jpg" width="300" height="100" />
+            </p>
+        </div>
+        <div id="nav">
+            <a href="accueil.html">Accueil</a>
+            <a href="Tout parcourir.html">Tout parcourir</a>
+            <a href="recherche.html">Recherche</a>
+            <a href="rendezvous.php">Rendez-vous</a>
+            <a href="moncompte.php">Mon compte</a>
+        </div>
+        <div id="footer">
+            <p class="contact">
+                <img src="img/logoOMNES.jpg" alt="logo" width="50" height="25">OMNES Education<br>
+                <a href="https://goo.gl/maps/HaibCyFxBq2sUoJF8" target="_BLANK">43 Quai de Grenelle</a><br>
+                75015 Paris<br><br>
+                (+33) 01 47 20 75 82 | Contact: <a href="mailto:admission@ece.fr">admission@ece.fr</a>
+            </p>
+            <p>
+                Copyright &copy;2022  | Latest update: <time datetime="2022-02-
+11 09:00">Aujourd’hui</time>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
